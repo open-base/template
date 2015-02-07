@@ -1,0 +1,232 @@
+/*******************************************************************************
+    MeyerWeb Reset
+*******************************************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* { 
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box; 
+}
+
+/*******************************************************************************
+    Theme Styles
+*******************************************************************************
+
+@font-face {
+    font-family: "Redacted";
+    src: url("../fonts/redacted-regular.eot");
+    src: url("../fonts/redacted-regular.woff2") format("woff2"),
+         url("../fonts/redacted-regular.woff") format("woff"),
+         url("../fonts/redacted-regular.otf") format("opentype"),
+         url("../fonts/redacted-regular.svg#filename") format("svg");
+}
+
+p {
+  font-family: "Redacted";
+  color: #333;
+}
+
+/******************************************************************************/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+small {
+  font-size: 85%;
+}
+
+.logo {
+  font-size: 5em;  
+  font-weight: 600;
+}
+
+a, p {
+  font-size: 1.1577em;
+  overflow: auto;
+}
+
+a {
+  color: #2f5372;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: #1b3246;
+}
+
+p {
+  margin-bottom: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+}
+h1, h2, h3, h4, h5, h6, .navbrand {
+  font-family: 'Exo', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 4.2em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.container {
+  width: 95%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 35px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1em;
+  background: -webkit-linear-gradient(90deg, #c1c1c1 0, #e1e1e1 20%, #e1e1e1 80%, #c1c1c1 100%);
+  background:    -moz-linear-gradient(90deg, #c1c1c1 0, #e1e1e1 20%, #e1e1e1 80%, #c1c1c1 100%);
+  background:         linear-gradient(90deg, #c1c1c1 0, #e1e1e1 20%, #e1e1e1 80%, #c1c1c1 100%);
+  border-bottom: 5px solid #0d1315;
+}
+
+.nav {
+  z-index:1;
+  position: fixed;
+  background-color: #0d1315;
+  height: 50px;
+  width: 100%;
+}
+
+.navbrand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 1.5em;
+  line-height: 20px;
+  color: #fff;
+  cursor: default;
+}
+
+.navbrand:hover,
+.navbrand:focus {
+  color: #fff;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 12.5px;
+  float: right !important;
+}
+
+.navitem {
+  padding: 12.5px 15px;
+  display: inline;
+}
+.navitem:hover,
+.navitem:active {
+  background-color: #d1d1d1;
+}
+
+.navitem > a {
+  color: #fff;
+}
+
+.navitem > a:hover,
+.navitem > a:active {
+  color: #fff;
+  background-color: transparent;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  list-style-type: none;
+  position: relative;
+  margin-top: 50px;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 160px;
+}
+
+.footeritem > h1,
+.footeritem > h2,
+.footeritem > h3,
+.footeritem > h4,
+.footeritem > h5,
+.footeritem > h6 {
+  color: #ddd;
+}
+
+.img-responsive {
+  height: auto;
+  width:  100%;
+}
+
+.content .img-responsive {
+  margin-bottom: 15px;
+}
