@@ -1,3 +1,3 @@
 $title = "MySQL";
-$content = "lalalalalala";
+$content = "MySQL is a database program, helping with flexible saving, it is an extremely scalable and great way of saving stuff in databases. It also helps with transactions, featuring a great transactional system with great defence and security. This security is also notable in the database itself, MySQL also offers tutorials on creating programs and using MySQL. It also is one of the cheapest ways of data storage, some big companies that transferred to MySQL say to have saved enormous sums of money, Sometimes even saving sums stretching into the seven figures. And don’t worry, the open-source software is not dangerous, as all software is owned and checked by oracle with 24/7 support.";
 $links = "<ol><li>Blablabal</li></ol>"
